@@ -5,10 +5,10 @@ import random
 screen = turtle.Screen()
 screen.title("Juego de los estados de México")
 
-image = "mapa_mexico.gif"
-screen.addshape(image)
+imagen = "mapa_mexico.gif"
+screen.addshape(imagen)
 screen.setup(width=800, height=600)
-turtle.shape(image)
+turtle.shape(imagen)
 
 data = pandas.read_csv("32_estados.csv")
 estados = data["estado"].to_list()

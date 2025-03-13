@@ -1,5 +1,7 @@
 # mapa_mexico
 Juego para aprender los Estados que conforman a México
 
-Programa escrito en python.
-Para interrumpir el juego escribe "Pausa". 
+Programa escrito en python (main.py) con apoyo del IDE PyCharm.
+Requiere los módulos "turtle", "pandas" y "random".
+
+Para interrumpir el juego escribe "Pausa" y se generará un archivo de salida tipo .csv que enlistará los Estados que faltaron. 

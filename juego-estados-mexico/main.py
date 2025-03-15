@@ -3,7 +3,7 @@ import pandas
 import random
 
 screen = turtle.Screen()
-screen.title("Juego de los estados de México")
+screen.title("Juego de los Estados de México")
 
 imagen = "mapa_mexico.gif"
 screen.addshape(imagen)
